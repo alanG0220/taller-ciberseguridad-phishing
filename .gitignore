@@ -1,0 +1,9 @@
+# Node & Vercel
+node_modules/
+.vercel/
+.env
+.env.local
+
+# OS Metadata
+.DS_Store
+Thumbs.db

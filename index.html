@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller de Seguridad Digital | Concientización contra Phishing y Enlaces Falsos</title>
+  <meta name="description" content="Página educativa de concientización sobre la importancia de verificar enlaces externos antes de abrirlos. Proyecto de Responsabilidad Social Universitaria.">
+  <meta name="robots" content="noindex, nofollow">
+  
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambience & Grid Overlay -->
+  <div class="bg-ambient-layer">
+    <div class="ambient-blob blob-1"></div>
+    <div class="ambient-blob blob-2"></div>
+    <div class="ambient-blob blob-3"></div>
+  </div>
+  <div class="bg-grid-overlay"></div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#" class="brand-badge" id="brand-link">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <span class="brand-text">Ciber<span>Seguridad</span> Univ</span>
+      </a>
+      <div class="workshop-tag">
+        <span class="status-dot"></span>
+        Taller de Responsabilidad Social
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- Hero / Simulation Hook Section -->
+    <section class="hero-section" id="hero-hook">
+      <div class="simulation-pill-alert" id="sim-pill">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+          <line x1="12" y1="9" x2="12" y2="13"/>
+          <line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+        Simulación de Enlace No Verificado
+      </div>
+
+      <h1 class="hero-main-title" id="main-title">
+        ¡Gracias por presionar el enlace!<br>
+        <span class="gradient-text-danger">Pudimos descargar tus datos... ⚠️</span>
+      </h1>
+
+      <p class="hero-hook-subtitle" id="hero-subtitle">
+        Acabas de abrir un enlace externo proveniente de un correo o mensaje sin antes validar su destino real.
+      </p>
+
+      <!-- Terminal Logs Box (Micro-animation) -->
+      <div class="terminal-window" id="terminal-sim-box">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <span class="terminal-title">consola-seguridad://inspeccion-clic.sh</span>
+        </div>
+        <div class="terminal-body" id="terminal-logs">
+          <div class="terminal-line">
+            <span class="terminal-prompt">&gt;</span> <span class="terminal-text">Iniciando análisis de navegación...</span>
+          </div>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar-fill"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Big Reveal & Educational Core Card -->
+    <section class="reveal-card" id="educational-reveal">
+      <div class="reveal-header-badge">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"/>
+        </svg>
+        ¡Respira con calma! Es una simulación educativa
+      </div>
+
+      <h2 class="reveal-title">
+        Por suerte para ti, nosotros <span>NO descargamos ningún dato tuyo</span>.
+      </h2>
+
+      <p class="reveal-lead-message">
+        Este ejercicio hace parte de un <strong>taller práctico de capacitación</strong> para demostrar lo fácil que es caer en un engaño digital cuando hacemos clic por impulso o curiosidad.
+      </p>
+
+      <!-- Reassuring Green Notice -->
+      <div class="highlight-box-safe">
+        <p>
+          🛡️ <strong>Tranquilo(a):</strong> Tu privacidad e información personal están 100% a salvo. No recolectamos correos, contraseñas, archivos ni datos de tu dispositivo.
+        </p>
+      </div>
+
+      <!-- Critical Warning Box (Requested by User) -->
+      <div class="highlight-box-danger">
+        <p>
+          🚨 <strong>Pero ten mucho cuidado:</strong> En un escenario de ataque real, cualquier persona u organización maliciosa <strong>sí podría haber robado tus contraseñas, infectado tu dispositivo o suplantado tu identidad</strong> con tan solo haber abierto ese enlace.
+        </p>
+        <p style="margin-top: 0.6rem; font-weight: 700; color: #ffffff;">
+          Recuerda siempre verificar minuciosamente el número de teléfono o correo electrónico de donde te envían mensajes. ¡No todos los enlaces son confiables!
+        </p>
+      </div>
+
+      <!-- Hero Cyber Shield Banner -->
+      <div class="hero-banner-image-wrapper">
+        <img src="assets/cyber-shield.jpg" alt="Escudo de ciberseguridad protegiendo datos personales" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Section: Qué podría pasar en un ataque real -->
+    <section class="risks-section" id="real-risks">
+      <div class="section-title-wrap">
+        <span class="section-eyebrow">Riesgos Digitales</span>
+        <h2 class="section-title">¿Qué puede ocurrir si abres un enlace malicioso real?</h2>
+        <p class="section-subtitle">
+          Los ciberdelincuentes utilizan técnicas sofisticadas de ingeniería social para engañarte en cuestión de segundos:
+        </p>
+      </div>
+
+      <div class="risk-grid">
+        <!-- Risk 1 -->
+        <article class="risk-card" id="risk-phishing">
+          <div class="risk-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
+            </svg>
+          </div>
+          <h3 class="risk-card-title">Robo de Credenciales (Phishing)</h3>
+          <p class="risk-card-desc">
+            Te dirigen a una página idéntica a la de tu universidad, banco o red social. Al iniciar sesión, tus contraseñas son enviadas directamente a los atacantes.
+          </p>
+        </article>
+
+        <!-- Risk 2 -->
+        <article class="risk-card" id="risk-malware">
+          <div class="risk-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h3 class="risk-card-title">Descarga Silenciosa de Malware</h3>
+          <p class="risk-card-desc">
+            A través de vulnerabilidades en el navegador ("drive-by download"), pueden instalar spyware o troyanos en tu celular o computador sin que te des cuenta.
+          </p>
+        </article>
+
+        <!-- Risk 3 -->
+        <article class="risk-card" id="risk-identity">
+          <div class="risk-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <h3 class="risk-card-title">Robo y Suplantación de Identidad</h3>
+          <p class="risk-card-desc">
+            Con acceso a tus cuentas o datos de identificación, pueden pedir dinero prestado a tus contactos de WhatsApp, solicitar créditos o acceder a tus fotos.
+          </p>
+        </article>
+
+        <!-- Risk 4 -->
+        <article class="risk-card" id="risk-tracking">
+          <div class="risk-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <h3 class="risk-card-title">Rastreo de Red e IP</h3>
+          <p class="risk-card-desc">
+            Al abrir un enlace, revelas tu proveedor de internet, ciudad aproximada y el modelo exacto de dispositivo, facilitando futuros ataques personalizados.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section: 4 Reglas de Oro -->
+    <section class="golden-rules-section" id="golden-rules">
+      <div class="section-title-wrap">
+        <span class="section-eyebrow">Buenas Prácticas</span>
+        <h2 class="section-title">Las 4 Reglas de Oro para no caer en la trampa</h2>
+        <p class="section-subtitle">
+          Aplica estos filtros antes de presionar cualquier enlace recibido por correo, WhatsApp o SMS:
+        </p>
+      </div>
+
+      <div class="rules-container">
+        <!-- Rule 1 -->
+        <div class="rule-card" id="rule-sender">
+          <div class="rule-number">01</div>
+          <div class="rule-content">
+            <h3>Verifica el remitente real, no solo el nombre visible</h3>
+            <p>
+              Cualquiera puede ponerse de nombre "Rectoría Universitaria" o "Soporte Bancario". Haz clic o toca sobre el remitente para ver la dirección de correo real. Si ves algo como <code>rectoria@correo-raro123.com</code> en lugar del dominio oficial <code>.edu.co</code>, es un fraude.
+            </p>
+            <div class="rule-tip-badge">💡 Tip: Fíjate en los caracteres cambiados, como una "l" minúscula en vez de "I" mayúscula.</div>
+          </div>
+        </div>
+
+        <!-- Rule 2 -->
+        <div class="rule-card" id="rule-hover">
+          <div class="rule-number">02</div>
+          <div class="rule-content">
+            <h3>Inspecciona el enlace antes de hacer clic</h3>
+            <p>
+              En computador, pasa el cursor sobre el enlace <strong>sin hacer clic</strong>: verás la URL real en la esquina inferior del navegador. En celular, <strong>mantén presionado el enlace</strong> durante 2 segundos para ver a dónde te va a dirigir antes de abrirlo.
+            </p>
+            <div class="rule-tip-badge">💡 Tip: Desconfía de acortadores como bit.ly o dominios desconocidos como .tk, .ga, .xyz.</div>
+          </div>
+        </div>
+
+        <!-- Rule 3 -->
+        <div class="rule-card" id="rule-urgency">
+          <div class="rule-number">03</div>
+          <div class="rule-content">
+            <h3>Desconfía de la falsa urgencia o premios inesperados</h3>
+            <p>
+              Los ciberatacantes manipulan tus emociones. Mensajes como: <em>"¡Tu cuenta será cerrada en 1 hora!", "¡Ganaste un subsidio económico!", "¡Detectamos un virus, pulsa aquí!"</em> buscan que actúes apresuradamente sin pensar.
+            </p>
+            <div class="rule-tip-badge">💡 Tip: Respira 10 segundos y valida por un canal oficial e independiente.</div>
+          </div>
+        </div>
+
+        <!-- Rule 4 -->
+        <div class="rule-card" id="rule-credentials">
+          <div class="rule-number">04</div>
+          <div class="rule-content">
+            <h3>Nunca digites claves o datos privados desde enlaces externos</h3>
+            <p>
+              Las universidades, bancos y plataformas legítimas jamás te pedirán tu contraseña, código de seguridad (token) o número de tarjeta a través de un mensaje de texto o correo. Entra siempre escribiendo la dirección oficial en la barra de tu navegador.
+            </p>
+            <div class="rule-tip-badge">💡 Tip: Activa la autenticación en dos pasos (2FA) en todas tus cuentas.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Taller Práctico / Quiz Interactivo -->
+    <section class="quiz-section" id="interactive-quiz">
+      <div class="section-title-wrap">
+        <span class="section-eyebrow">Taller en Vivo</span>
+        <h2 class="section-title">Ponte a prueba: ¿Sabes identificar una trampa?</h2>
+        <p class="section-subtitle">
+          Analiza el caso que aparece a continuación y decide si es seguro abrirlo o si se trata de un ataque de phishing:
+        </p>
+      </div>
+
+      <div class="quiz-card-box" id="quiz-box-container">
+        <div class="quiz-step-indicator">
+          <span class="quiz-step-title" id="quiz-step-label">Caso 1 de 3</span>
+          <span class="quiz-score-badge" id="quiz-score-badge">Aciertos: 0/3</span>
+        </div>
+
+        <div class="scenario-box">
+          <div class="scenario-sender" id="quiz-scenario-sender">Cargando caso...</div>
+          <div class="scenario-message" id="quiz-scenario-message">Cargando mensaje...</div>
+          <div class="scenario-link-preview" id="quiz-scenario-link">🔗 Cargando enlace...</div>
+        </div>
+
+        <div class="quiz-actions">
+          <button class="btn-choice btn-safe" id="quiz-btn-safe">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Es un enlace Seguro
+          </button>
+          <button class="btn-choice btn-phishing" id="quiz-btn-phishing">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="15" y1="9" x2="9" y2="15"/>
+              <line x1="9" y1="9" x2="15" y2="15"/>
+            </svg>
+            ¡Es Trampa / Phishing!
+          </button>
+        </div>
+
+        <div class="quiz-feedback-box" id="quiz-feedback"></div>
+      </div>
+    </section>
+
+    <!-- Attendance & Acknowledgment Call To Action -->
+    <section class="attendance-box" id="attendance-section">
+      <h2 class="attendance-title">¿Aprendiste la importancia de verificar los enlaces?</h2>
+      <p class="attendance-desc">
+        Haz clic en el siguiente botón para registrar tu participación en este taller de concientización y sumarte a la comunidad de navegación responsable.
+      </p>
+
+      <button class="btn-confirm-attendance" id="btn-confirm-attendance">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="m9 12 2 2 4-4"/>
+        </svg>
+        ¡Entendido! Participé en la capacitación
+      </button>
+
+      <div class="attendance-confirmed-state" id="attendance-confirmed-state">
+        <div class="confirmed-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          <div>
+            <h3 style="font-size: 1.3rem; font-weight: 800; color: #ffffff; margin-bottom: 0.25rem;">
+              ¡Felicidades! Eres un Usuario Ciberseguro 🎓
+            </h3>
+            <p style="font-size: 0.95rem; color: #a7f3d0;">
+              Tu compromiso con la seguridad digital ha quedado registrado en este taller. ¡Comparte este conocimiento con tus compañeros!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-disclaimer">
+        <strong>Aviso de Ética y Responsabilidad:</strong> Esta página web es una herramienta estrictamente académica y formativa diseñada para una capacitación de <em>Responsabilidad Social Universitaria</em>. No almacena contraseñas, no recolecta datos personales ni ejecuta ningún tipo de software malicioso.
+      </p>
+      <p class="footer-credits">
+        Desarrollado para el Taller Universitario de <strong>Seguridad Digital y Prevención del Cibercrimen</strong> © 2026
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
