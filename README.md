@@ -1,6 +1,7 @@
-# 🛡️ Taller de Seguridad Digital: Concientización contra Phishing y Enlaces Falsos
+# 🛡️ Práctica de Responsabilidad Social: Inclusión Digital - UNIMINUTO
+### Taller de Seguridad Digital: Concientización contra Phishing y Enlaces Falsos
 
-Este proyecto corresponde a un taller práctico de **Responsabilidad Social Universitaria** enfocado en la prevención de ciberdelitos, suplantación de identidad y concientización sobre la importancia de verificar los enlaces externos antes de abrirlos.
+Este proyecto corresponde a la **Práctica de Responsabilidad Social, Inclusión Digital - UNIMINUTO**, enfocado en la prevención de ciberdelitos, suplantación de identidad y concientización sobre la importancia de verificar los enlaces externos antes de abrirlos.
 
 ---
 

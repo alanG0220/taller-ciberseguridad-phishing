@@ -56,13 +56,13 @@ const quizQuestions = [
     explanation: '¡Es Phishing! 🚩 Fíjate en el dominio del remitente (.xyz) y el enlace (.tk). La universidad jamás te amenazará con darte de baja en 2 horas ni usará enlaces con dominios gratuitos o sospechosos.'
   },
   {
-    sender: 'notificaciones@campus.universidad.edu.co',
-    senderName: 'Campus Virtual Universitario',
-    subject: 'Recordatorio: Próxima entrega de actividad académica',
-    message: 'Hola, te recordamos que tienes una actividad pendiente en el aula virtual de Responsabilidad Social. Puedes revisar el cronograma en el portal oficial:',
-    url: 'https://campus.universidad.edu.co/aulas/actividad-4',
+    sender: 'notificaciones@campus.uniminuto.edu.co',
+    senderName: 'Aulas Virtuales UNIMINUTO',
+    subject: 'Recordatorio: Próxima entrega - Práctica en Responsabilidad Social',
+    message: 'Hola, te recordamos que tienes una actividad pendiente en el aula virtual de Responsabilidad Social (Inclusión Digital). Puedes revisar el cronograma en el portal oficial:',
+    url: 'https://campus.uniminuto.edu.co/aulas/actividad-4',
     isPhishing: false,
-    explanation: '¡Es Seguro! ✅ El remitente y el enlace provienen del dominio oficial universitario (.edu.co) y no solicita que ingreses claves bancarias o datos confidenciales de emergencia.'
+    explanation: '¡Es Seguro! ✅ El remitente y el enlace provienen del dominio oficial institucional (.uniminuto.edu.co) y no solicita que ingreses claves bancarias o datos confidenciales de emergencia.'
   },
   {
     sender: '+57 311 000 0000 (SMS de número desconocido)',
